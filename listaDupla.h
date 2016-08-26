@@ -18,6 +18,7 @@ link novoNo (int item, link prev, link next);
 link buscar(ListaDupla l, int item);
 void insereDepois (ListaDupla l, link x, link t);
 void insereAntes (ListaDupla l, link x, link t);
+void menorNo(ListaDupla l, int item);
 link removeNo (link x);
 void imprime(ListaDupla l);
 void imprimeReverso(ListaDupla l);
