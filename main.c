@@ -11,6 +11,7 @@ int main () {
   insereDepois(l,aux,aux2);
   aux = novoNo(42, NULL, NULL); 
   insereDepois(l, aux2, aux);
+  link buscarMenor(l);
   imprime(l);
   imprimeReverso(l);
   printf ("\nremovendo %d \n", aux2->item);
@@ -18,6 +19,7 @@ int main () {
     removeNo(aux2);
   imprime(l);
   destroiLista(l);
+  ordenaLista(l);
 
   return 0;
 }
